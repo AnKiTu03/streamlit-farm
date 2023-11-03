@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from google.cloud import firestore
-from plotly.tools import FigureFactory as ff
 
 st.title('MY DASHBOARD')
 st.write("Some useful insights about :red[Farmers]")
